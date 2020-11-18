@@ -26,7 +26,7 @@ public class JQueryUIHomepageObject {
 	@FindBy(xpath="//a[text()='Demos']")
 	public WebElement demosTab;
 	
-	@FindBy(xpath="(//a[text()='Learning Center'])[1]")
+	@FindBy(css="(//a[text()='Learning Center'])[1]") //done intentionally css instead of xpath
 	public WebElement learningCenter;
 	
 	@FindBy(xpath="(//a[text()='CLA'])[1]")

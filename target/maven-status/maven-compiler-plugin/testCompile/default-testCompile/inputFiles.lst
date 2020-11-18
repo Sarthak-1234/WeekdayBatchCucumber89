@@ -1,7 +1,12 @@
-C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\init\TestInitiator.java
-C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\StepDefination\JQueryUIHomepage.java
 C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\utils\CommonFunctions.java
 C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\init\WebDriverIniator.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\reporting\ReportingClass.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\reporting\ExtentManager.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\runner\RunUsingTestNG.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\init\TestInitiator.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\StepDefination\JQueryUIHomepage.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\utils\Xls_Reader.java
+C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\utils\TakeScreenshots.java
 C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\managers\PropertyFileReading.java
 C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\pageObject\JQueryUIHomepageObject.java
 C:\Users\Sarthak Chadha\GSF_BrightCoveMigration\CucumberWeekday89Batch\src\test\java\managers\ExcelFileReading.java

@@ -11,6 +11,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import init.TestInitiator;
 import pageObject.JQueryUIHomepageObject;
+import reporting.ReportingClass;
 
 public class JQueryUIHomepage extends TestInitiator{
 	
@@ -23,19 +24,33 @@ public class JQueryUIHomepage extends TestInitiator{
 	
 	
 	@Given("Launch URL of homepage")
-	public void launch_URL_of_homepage() {
+	public void launch_URL_of_homepage() throws Throwable {
 		LOGGER.info("In StepDef calling launchHomepage function");
+		
+		try {
 		homepage.launchHomePage();
+		ReportingClass.infoLogPass("Launch URL of homepage");
+		}catch(Exception e) {
+			ReportingClass.reportFailure("Launch URL of homepage", TestInitiator.driver);
+		}
 	}
 
 	@Then("I verify title of homepage")
-	public void i_verify_title_of_homepage() {
+	public void i_verify_title_of_homepage() throws Throwable {
 		LOGGER.info("IN Stepdef checking title");
+		
+		try {
 		Assert.assertEquals(homepage.fetchTitle(), "jQuery UI");
+		ReportingClass.infoLogPass("I verify title of homepage");
+		}catch(Exception e) {
+			ReportingClass.reportFailure("I verify title of homepage", TestInitiator.driver);
+		}
 	}
 	
 	@Then("I verify below mentioned header tabs:")
-	public void i_verify_below_mentioned_header_tabs(io.cucumber.datatable.DataTable dataTable) {
+	public void i_verify_below_mentioned_header_tabs(io.cucumber.datatable.DataTable dataTable) throws Throwable {
+		
+		try {
 		List<String> list = dataTable.asList();
 		
 		for(String e: list) {
@@ -58,23 +73,46 @@ public class JQueryUIHomepage extends TestInitiator{
 				homepage.aboutTabCheck();
 			}
 		}
+		ReportingClass.infoLogPass("I verify below mentioned header tabs:");
+		}catch(Exception e) {
+			ReportingClass.reportFailure("I verify below mentioned header tabs:", TestInitiator.driver);
+		}
 	}
 	
 	@Given("I hover mouse cursor over {string} tab")
-	public void i_hover_mouse_cursor_over_tab(String string) throws InterruptedException {
+	public void i_hover_mouse_cursor_over_tab(String string) throws Throwable {
+		
+		try {
 		homepage.mouseHover(string);
+		ReportingClass.infoLogPass("I hover mouse cursor over {string} tab");
+		}catch(Exception e) {
+			ReportingClass.reportFailure("I hover mouse cursor over {string} tab", TestInitiator.driver);
+		}
 	}
 
 	@Given("I click on {string}")
-	public void i_click_on(String string) {
-		homepage.clickTab(string);
+	public void i_click_on(String string) throws Throwable {
+		
+		try {
+			
+			homepage.clickTab(string);
+			ReportingClass.infoLogPass("I click on {string}");
+			}catch(Exception e) {
+				ReportingClass.reportFailure("I click on {string}", TestInitiator.driver);
+			}
 	}
 	
 	
 
 	@Then("I verify the url which contains {string}")
-	public void i_verify_the_url_which_contains(String string) {
-		homepage.checkURL(string);
+	public void i_verify_the_url_which_contains(String string) throws Throwable {
+		
+		try {
+			homepage.checkURL(string);
+			ReportingClass.infoLogPass("I verify the url which contains {string}");
+			}catch(Exception e) {
+				ReportingClass.reportFailure("I verify the url which contains {string}", TestInitiator.driver);
+			}
 	}
 	
 

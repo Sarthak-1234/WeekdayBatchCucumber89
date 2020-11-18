@@ -1,20 +1,32 @@
-2020-11-17 21:28:29.447 [main] INFO  init.TestInitiator -
+2020-11-18 21:53:13.236 [main] INFO  init.TestInitiator -
                     In BeforeClass of runner file
-2020-11-17 21:28:29.451 [main] INFO  init.TestInitiator -
+2020-11-18 21:53:13.240 [main] INFO  init.TestInitiator -
                     launching driver
-2020-11-17 21:28:29.456 [main] INFO  init.WebDriverIniator -
+2020-11-18 21:53:13.243 [main] INFO  init.WebDriverIniator -
                     Launching Chrome Driver
-2020-11-17 21:28:36.844 [main] INFO  init.TestInitiator -
+2020-11-18 21:53:21.293 [main] INFO  init.TestInitiator -
                     creating page object
-2020-11-17 21:28:36.845 [main] INFO  init.TestInitiator -
+2020-11-18 21:53:21.294 [main] INFO  init.TestInitiator -
                     Creating objects of pages
-2020-11-17 21:28:36.937 [main] INFO  StepDefination.JQueryUIHomepage -
+2020-11-18 21:53:21.353 [main] INFO  StepDefination.JQueryUIHomepage -
                     In StepDef calling launchHomepage function
-2020-11-17 21:28:36.937 [main] INFO  pageObject.JQueryUIHomepageObject -
+2020-11-18 21:53:21.353 [main] INFO  pageObject.JQueryUIHomepageObject -
                     launching homepage url
-2020-11-17 21:28:42.796 [main] INFO  StepDefination.JQueryUIHomepage -
+2020-11-18 21:53:23.464 [main] INFO  StepDefination.JQueryUIHomepage -
+                    IN Stepdef checking title
+2020-11-18 21:53:23.470 [main] INFO  pageObject.JQueryUIHomepageObject -
+                    Title = jQuery UI
+2020-11-18 21:53:23.481 [main] INFO  StepDefination.JQueryUIHomepage -
                     In StepDef calling launchHomepage function
-2020-11-17 21:28:42.796 [main] INFO  pageObject.JQueryUIHomepageObject -
+2020-11-18 21:53:23.482 [main] INFO  pageObject.JQueryUIHomepageObject -
                     launching homepage url
-2020-11-17 21:28:48.551 [main] INFO  init.TestInitiator -
+2020-11-18 21:53:24.541 [main] INFO  StepDefination.JQueryUIHomepage -
+                    In StepDef calling launchHomepage function
+2020-11-18 21:53:24.542 [main] INFO  pageObject.JQueryUIHomepageObject -
+                    launching homepage url
+2020-11-18 21:53:33.342 [main] INFO  StepDefination.JQueryUIHomepage -
+                    In StepDef calling launchHomepage function
+2020-11-18 21:53:33.342 [main] INFO  pageObject.JQueryUIHomepageObject -
+                    launching homepage url
+2020-11-18 21:53:40.568 [main] INFO  init.TestInitiator -
                     Closing Driver

@@ -1,9 +1,14 @@
 init\WebDriverIniator.class
 StepDefination\JQueryUIHomepage.class
+utils\TakeScreenshots.class
 managers\PropertyFileReading.class
+reporting\ReportingClass.class
 utils\CommonFunctions.class
 StepDefination\HooksInCucumber.class
+reporting\ExtentManager.class
+utils\Xls_Reader.class
 init\TestInitiator.class
 pageObject\JQueryUIHomepageObject.class
+runner\RunUsingTestNG.class
 runner\TestRunner.class
 managers\ExcelFileReading.class
