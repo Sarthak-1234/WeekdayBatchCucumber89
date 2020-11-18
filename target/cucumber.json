@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1020999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.launchDriver()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify Learning Center link under Support Tab on the top",
+        "description": "",
+        "id": "redbus-homepage-sceanrios;verify-learning-center-link-under-support-tab-on-the-top",
+        "after": [
+          {
+            "result": {
+              "duration": 59700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1980564901,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch URL of homepage",
+            "match": {
+              "location": "JQueryUIHomepage.launch_URL_of_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2383959100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I hover mouse cursor over \"Support\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Support\"",
+                  "offset": 26
+                }
+              ],
+              "location": "JQueryUIHomepage.i_hover_mouse_cursor_over_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1485742300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on \"Learning Center\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Learning Center\"",
+                  "offset": 11
+                }
+              ],
+              "location": "JQueryUIHomepage.i_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8870399,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify the url which contains \"learn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"learn\"",
+                  "offset": 32
+                }
+              ],
+              "location": "JQueryUIHomepage.i_verify_the_url_which_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.launchDriver()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify CLA link under Contribute on the top",
+        "description": "",
+        "id": "redbus-homepage-sceanrios;verify-cla-link-under-contribute-on-the-top",
+        "after": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksInCucumber.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278786400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Launch URL of homepage",
+            "match": {
+              "location": "JQueryUIHomepage.launch_URL_of_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2042008800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I hover mouse cursor over \"Contribute\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contribute\"",
+                  "offset": 26
+                }
+              ],
+              "location": "JQueryUIHomepage.i_hover_mouse_cursor_over_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2293091901,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on \"CLA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CLA\"",
+                  "offset": 11
+                }
+              ],
+              "location": "JQueryUIHomepage.i_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13187399,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify the url which contains \"openjsf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"openjsf\"",
+                  "offset": 32
+                }
+              ],
+              "location": "JQueryUIHomepage.i_verify_the_url_which_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "RedBus Homepage Sceanrios",
+    "description": "",
+    "id": "redbus-homepage-sceanrios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/tests/JQueryUIHomepage.feature",
+    "tags": []
+  }
+]

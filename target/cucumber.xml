@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.493159">
+<testcase classname="RedBus Homepage Sceanrios" name="Verify Learning Center link under Support Tab on the top" time="5.865555">
+<system-out><![CDATA[Given Launch URL of homepage................................................passed
+And I hover mouse cursor over "Support" tab.................................passed
+And I click on "Learning Center"............................................passed
+Then I verify the url which contains "learn"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RedBus Homepage Sceanrios" name="Verify CLA link under Contribute on the top" time="5.627604">
+<system-out><![CDATA[Given Launch URL of homepage................................................passed
+And I hover mouse cursor over "Contribute" tab..............................passed
+And I click on "CLA"........................................................passed
+Then I verify the url which contains "openjsf"..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
